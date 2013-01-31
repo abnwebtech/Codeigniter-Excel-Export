@@ -9,6 +9,7 @@ An Codeigniter library for exporting the data from database to Excel file.
 ========================
 
 1. 复制Excel.php到相应目录(application/libraries目录下)
+------------------------
 
 2. 创建数据结果集
 ------------------------
@@ -39,5 +40,14 @@ public function export() {
     $this->excel->make_from_array($titles, $array);
 }
 ?>
+
+参考项目
+=========================
+
+https://github.com/EllisLab/CodeIgniter/wiki/Excel-Plugin
+
+https://github.com/JOakley77/CI-Excel-Generation-Library
+
+
 
 
